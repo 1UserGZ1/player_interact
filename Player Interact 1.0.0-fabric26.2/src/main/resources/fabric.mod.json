@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "player_interact",
+	"version": "${version}",
+	"name": "玩家交互",
+	"description": "复刻光遇玩法，支持跟随、背起、骑行玩家互动，按键自定义绑定，Shift脱离交互。国创Fabric模组。",
+	"authors": ["DY_XiaoJiaZi"],
+	"contact": {
+		"homepage": "https://github.com/1UserGZ1",
+		"sources": "https://github.com/1UserGZ1/player_interact",
+		"issues": "https://github.com/1UserGZ1/player_interact/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dyxiaojiazi.player_interact.PlayerInteract"
+		],
+		"client": [
+			"com.dyxiaojiazi.player_interact.ClientInitializer"
+		]
+	},
+	"mixins": [
+		"player_interact.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": ">=0.160.0+26.2"
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "mod.player_interact.name": "Player Interact",
+  "key.category.player_interact.custom_category": "Player Interact Mod",
+  "key.player_interact.invite_holdhands": "Invite Follow",
+  "key.player_interact.invite_carry": "Invite Carry",
+  "key.player_interact.invite_ride": "Invite Ride",
+  "key.player_interact.release": "Release Interaction",
+  "key.player_interact.crawl": "Crawl",
+  "message.player_interact.invite_holdhands": "%s invites you to follow! Right-click the player to accept",
+  "message.player_interact.invite_carry": "%s invites you to get on his back! Right-click the player to accept",
+  "message.player_interact.invite_ride": "%s invites you to ride on him! Right-click the player to accept",
+  "message.player_interact.no_offhand": "Off-hand item is not empty, cannot send follow invite!",
+  "message.player_interact.invite_sent": "Invitation sent, waiting for target player accept",
+  "message.player_interact.invite_expired": "Interaction invite expired, cancelled",
+  "message.player_interact.linked_start": "Interaction linked, press X to release",
+  "message.player_interact.released": "Left interaction state"
+}

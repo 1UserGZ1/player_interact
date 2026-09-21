@@ -1,0 +1,17 @@
+{
+  "mod.player_interact.name": "玩家交互",
+  "key.category.player_interact.custom_category": "玩家交互模组",
+  "key.player_interact.invite_holdhands": "发起跟随邀请",
+  "key.player_interact.invite_carry": "发起背起邀请",
+  "key.player_interact.invite_ride": "发起骑行邀请",
+  "key.player_interact.release": "脱离交互",
+  "key.player_interact.crawl": "趴下 / 匍匐",
+  "message.player_interact.invite_holdhands": "%s 邀请你跟随！右键该玩家接受邀请",
+  "message.player_interact.invite_carry": "%s 邀请你上他的背！右键该玩家接受邀请",
+  "message.player_interact.invite_ride": "%s 邀请你骑在他身上！右键该玩家接受邀请",
+  "message.player_interact.no_offhand": "副手物品不为空，无法发起跟随邀请！",
+  "message.player_interact.invite_sent": "交互邀请已发送，等待对方右键接受",
+  "message.player_interact.invite_expired": "交互邀请已超时，邀请失效",
+  "message.player_interact.linked_start": "交互已建立，按下 X 脱离",
+  "message.player_interact.released": "已脱离交互状态"
+}
